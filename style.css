@@ -318,10 +318,16 @@ section .wrt-post .post :first-of-type{
     .ppl-posts .div2{
         display: none; 
     }
+    .wrt-post{
+        display: none;
+    }
     .wrt-post .post{
         display: none;
     }
-    .wrt-post .join-grp p,button{
+    .wrt-post .join-grp p{
+        display: none;
+    }
+    .wrt-post .join-grp button{
         display: none;
     }
     .img-header p{
