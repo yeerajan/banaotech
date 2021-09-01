@@ -340,6 +340,12 @@ section .wrt-post .post :first-of-type{
     nav .left-tag p{
         display: none;
     }
+    nav .left-tag p span{
+        display: none;
+    }
+    nav .left-tag p img{
+        display: none;
+    }
     nav .right-tag p{
         display: none;
     }
