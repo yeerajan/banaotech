@@ -59,6 +59,8 @@ nav .right-tag p span{
 
 section .img-header{
     background-image: url('media/Rectangle2.jpg');
+    background-size: cover;
+    background-origin: content-box;
     background-repeat: no-repeat;
     height: 440px;
     display: flex;
@@ -307,3 +309,40 @@ section .wrt-post .post :first-of-type{
 /* .ppl-posts .div1 .post-content:nth-of-type(n){
     margin-bottom: 20px;
 } */
+
+
+@media(max-width: 990px){
+    .ppl-posts .div2{
+        display: none;
+        
+    }
+    .svb{
+        width: 100%;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .img-header{
+        background-image: url('media/Rectangle2.jpg');
+        background-size: cover;
+        background-origin: content-box;
+        background-repeat: no-repeat;
+        height: 200px;
+    }
+    .div1 .post-cont{
+        width: 100%;
+    }
+    .ppl-posts{
+        padding: 0px;
+    }
+    nav{
+        padding-left: 5px;
+        padding-right: 5px;
+        
+    }
+    
+}
+@media(max-width:700px){
+    nav .left-tag p,span{
+        font-size: 10px;
+    }
+}
