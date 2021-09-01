@@ -337,9 +337,13 @@ section .wrt-post .post :first-of-type{
 
 }
 @media(max-width: 1080px){
-    .right-tag {
+    nav .left-tag p{
         display: none;
     }
+    nav .right-tag p{
+        display: none;
+    }
+    
     .svb{
         width: 100%;
     }
@@ -402,12 +406,12 @@ section .wrt-post .post :first-of-type{
     .ppl-posts{
         padding: 0px 30px 0px 30px;
     }
-    nav .left-tag p{
+    /* nav .left-tag p{
         display: none;
     }
     nav .right-tag p{
         display: none;
-    }
+    } */
 }
 @media(max-width: 700px){
     .ppl-posts{
