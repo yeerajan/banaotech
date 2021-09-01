@@ -64,7 +64,7 @@ section .img-header{
     background-position: center;
     background-repeat: no-repeat;
     /* width: 100%; */
-    height: 55vh;
+    height: 440px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -335,6 +335,25 @@ section .wrt-post .post :first-of-type{
         padding-bottom: 4em;
     }
 
+}
+@media(max-width: 1080px){
+    .right-tag {
+        display: none;
+    }
+    .svb{
+        width: 100%;
+    }
+    section .img-header{
+        width: 63%;
+        background-size: cover;
+    }
+    /* .div1,.post-cont,.post-content,.post-img,.dotted{
+        width: 100%;
+    } */
+    .ppl-posts{
+        
+        padding: 0px 0px 0px 10px;
+    }
 }
 @media(max-width: 1024px){
     .ppl-posts{
