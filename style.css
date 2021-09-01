@@ -58,34 +58,37 @@ nav .right-tag p span{
 }
 
 section .img-header{
-    font-size: 10em;
+    font-size: 2em;
     background-image: url('media/Rectangle2.jpg');
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 60vh;
+    /* width: 100%; */
+    height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     
 }
 section .img-header p{
+    
     color: #FFFFFF;
-    padding-bottom: 80px;
+    padding-bottom: 1em;
     padding-top: 0px;
     margin-top: 0px;
     padding-left: 200px;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 0.6em;
+    /* line-height: 23px; */
 }
 section .img-header h3{
+    
     font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
-    line-height: 47px;
+    font-size: 1em;
+    /* line-height: 47px; */
     color: #FFFFFF;
-    padding-bottom: 0px;
+    padding-bottom: 0em;
     margin: 0px;
     padding-left: 200px;
 }
@@ -145,10 +148,10 @@ section .wrt-post .post a{
 section .wrt-post .post :first-of-type{
     color: black;
 }
-.material-icons{
+/* .material-icons{
     padding: 0px 8px 0px 8px;
     font-size: 15px;
-}
+} */
 .ppl-posts{
     display: flex;
     flex-direction: row;
@@ -321,7 +324,20 @@ section .wrt-post .post :first-of-type{
     .wrt-post .join-grp p,button{
         display: none;
     }
+    .img-header p{
+        font-size: 2em;
+        padding-bottom: 4em;
+    }
 
+}
+@media(max-width: 1024px){
+    .ppl-posts{
+        padding: 0px 0px 0px 0px;
+    }
+    section .img-header{
+        width: 68%;
+        background-size: cover;
+    }
 }
 @media(max-width: 990px){
     .svb{
@@ -329,25 +345,32 @@ section .wrt-post .post :first-of-type{
         margin-right: 0px;
         padding-right: 0px;
     }
-    .img-header{
-        font-size: 3em;
-    }
     .div1 .post-cont{
         width: 100%;
     }
     .ppl-posts{
-        padding: 0px 100px 0px 100px;
+        padding: 0px 0px 0px 0px;
     }
     nav{
         padding-left: 10px;
         padding-right: 10px;
         
     }
+    .img-header p{
+        font-size: 2em;
+        padding-bottom: 3em;
+    }
     
 }
 @media(max-width: 800px){
     .ppl-posts{
-        padding: 0px 50px 0px 50px;
+        padding: 0px 0px 0px 0px;
+    }
+}
+@media(max-width: 768px){
+    section .img-header{
+        width: 95%;
+        background-size: cover;
     }
 }
 @media(max-width: 750px){
@@ -363,16 +386,62 @@ section .wrt-post .post :first-of-type{
 }
 @media(max-width: 700px){
     .ppl-posts{
-        padding: 0px 0px 0px 0px;
-        /* margin: 0px 30px 0px 0px; */
+        padding: 0px 20px 0px 10px;
+    }
+    section .img-header{
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+    }
+    section .img-header h3{
+        padding-left: 20px;
+    }
+    section .img-header p{
+        padding-left: 20px;
+    }
+    
+}
+@media(max-width: 540px){
+    section .img-header{
+        width: 128%;
+        background-size: cover;
     }
 }
-@media(max-width:700px){
-    nav .left-tag p,span{
-        font-size: 10px;
-    }
-    .img-header{
-        font-size: 1em;
-        height: 0.5em;
+@media(max-width: 414px){
+    section .img-header{
+        width: 170%;
+        background-size: cover;
     }
 }
+@media(max-width: 411px){
+    section .img-header{
+        width: 170%;
+        background-size: cover;
+    }
+}
+@media(max-width: 375px){
+    section .img-header{
+        width: 188%;
+        background-size: cover;
+    }
+}
+@media(max-width: 360px){
+    section .img-header{
+        width: 190%;
+        background-size: cover;
+    }
+}
+@media(max-width: 320px){
+    section .img-header{
+        width: 220%;
+        background-size: cover;
+    }
+}
+@media(max-width: 280px){
+    section .img-header{
+        width: 250%;
+        background-size: cover;
+    }
+}
+
+/* Thank you */
